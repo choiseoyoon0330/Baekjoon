@@ -1,0 +1,6 @@
+a,b=map(int,input().split())
+a_arr=set()
+b_arr=set()
+a_arr.update(map(int,input().split()))
+b_arr.update(map(int,input().split()))
+print(len((a_arr-b_arr)|(b_arr-a_arr)))
