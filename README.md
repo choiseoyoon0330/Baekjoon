@@ -1,4 +1,4 @@
-# Baekjoon Online Judge Problem Solving
+# BOJ Problem Solving
 
 **Language: Python**
 
