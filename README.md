@@ -1,6 +1,8 @@
-# 백준 문제 풀이
+# Baekjoon Online Judge Problem Solving
 
-**사용 언어: Python**
+**Language: Python**
+
+These are my solutions for Baekjoon Online Judge Problems.
 
 
 This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
