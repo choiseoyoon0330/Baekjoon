@@ -1,5 +1,5 @@
 # BOJ Problem Solving
-**Language: Python 3, C++**
+**Language: Python 3**
 
 ## About
 These are my solutions for Baekjoon Online Judge Problems.  
