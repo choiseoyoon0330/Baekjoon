@@ -1,16 +1,15 @@
-n = input()
-result = 0
+n = int(input())
+original = n
+cnt = 0
 
-if len(n) == 1:
-    n = str(0) + n
-    
-new = n
 while True:
-    add_num = str(int(new[0]) + int(new[1]))
-    new = new[1] + add_num[-1]
-    result += 1
-    if new == n:
+    tens = n // 10
+    ones = n % 10
+    new_ones = (tens + ones) % 10
+    n = ones * 10 + new_ones
+    cnt += 1
+    
+    if original == n:
         break
-    
-    
-print(result)
+
+print(cnt)
